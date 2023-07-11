@@ -12,5 +12,12 @@ pipeline {
         }
       }
     }
+    stage('Stage 2') {
+      steps {
+        script {
+          echo "Stage 2"
+        }
+      }
+    }
   }
 }
